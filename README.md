@@ -8,6 +8,7 @@ Use NPM package manager to install all the dependencies
 
 ```bash
 npm install
+cp .env.example .env
 ```
 
 ## Running
@@ -15,6 +16,7 @@ npm install
 ```bash
 npm start
 ```
+The server will start on port 3000. Additionally you can specify you own port in ```.env``` file.
 
 ## API Documentation
 [Postman](https://documenter.getpostman.com/view/6483443/T17CC9T5)
